@@ -27,4 +27,4 @@ https://repo1.maven.org/maven2/org/apache/jena/jena-fuseki-docker/
 
 
 
-fuseki-server --loc="C:/Users/deepa/data/workspace/github/TBD-storage"  /NAME
+java -jar fuseki-server.jar --config=config.ttl
